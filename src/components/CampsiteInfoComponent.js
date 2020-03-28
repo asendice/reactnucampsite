@@ -13,7 +13,7 @@ function RenderCampsite({campsite}){
                 </CardBody>
             </Card>
         </div>
-    )
+    );
 
 }
 
@@ -37,7 +37,7 @@ function CampsiteInfo(props){
                     <RenderComments comments={props.comments} />
                 </div>
             </div>
-        )
+        );
     }
     return <div/>;
         
