@@ -7,17 +7,17 @@ import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import About from './AboutComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 
 const mapStateToProps = state => {
-    return{
-        campsites: state.campsies,
+    return {
+        campsites: state.campsites,
         comments: state.comments,
         partners: state.partners,
         promotions: state.promotions
-    }
-}
+    };
+};
 
 
 
@@ -58,7 +58,7 @@ class Main extends Component {
                 </Switch>
                 <Footer />
             </div>
-        )
+        );
     }
 }
 
